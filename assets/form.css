@@ -1,0 +1,37 @@
+.form-container {
+    margin: 10% 15%;
+    border-radius: 5px;
+    background-color: rgba(0, 41, 45, 0.1);
+    padding: 20px;
+}
+
+input {
+    color: rgb(236, 220, 220);
+    background-color: rgba(0, 41, 45, 0.1);
+    border: 1px inherit;
+}
+
+label {
+    color: rgb(236, 220, 220);
+}
+
+input[type=text], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px inherit;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    background-color: rgba(0, 41, 45, 0.1);
+}
+  
+input[type=submit] {
+    background-color: purple;
+    padding: 12px 20px;
+    border: inherit;
+    border-radius: 4px;
+    cursor: pointer;
+}
+

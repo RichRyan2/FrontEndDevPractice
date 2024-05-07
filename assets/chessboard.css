@@ -1,0 +1,23 @@
+#chessboard-main {
+    width: 800px;
+    height: 800px;
+    border: 3px black solid;
+    margin: auto;
+    margin-top: 5%;
+}
+
+#chessboard-white-tile {
+    box-sizing: border-box;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    display: table-cell;
+}
+
+#chessboard-black-tile {
+    box-sizing: border-box;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    display: table-cell;
+}
